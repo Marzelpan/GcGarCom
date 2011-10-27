@@ -1,0 +1,16 @@
+{
+	"name": "GCGarCom",
+	"version": "0.3",
+	"description": "Let geocaching.com talk to your Garmin device in Chrome on OSX",
+	"update_url": "http://marzelpan.de/gcgarcom/updates.xml",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://www.geocaching.com/seek/sendtogps.aspx*"
+			],
+			"all_frames": true,
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	]
+}
