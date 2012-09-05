@@ -1,8 +1,8 @@
 {
 	"name": "GCGarCom",
-	"version": "0.3",
-	"description": "Let geocaching.com talk to your Garmin device in Chrome on OSX",
-	"update_url": "http://marzelpan.de/gcgarcom/updates.xml",
+	"version": "0.4.1",
+	"description": "Let Geocaching.com talk to your Garmin GPS device in Chrome on your Mac",
+	"manifest_version": 2,
 	"content_scripts": [
 		{
 			"matches": [
